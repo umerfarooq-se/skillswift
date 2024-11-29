@@ -1,0 +1,15 @@
+.truncate-text {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.truncate-text-2 {
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.vanish-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
